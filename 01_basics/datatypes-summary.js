@@ -36,3 +36,17 @@ const myfunc = function() {
     console.log('Hello World')
 }
 
+/*********************************** Memory ************************************/
+
+// 2 types of memory Stack and Heap
+
+// 1. in primitive datatype STACK memory is used ()
+// here whatever we copy that is the copy and changes with not effect the original value
+
+
+// 2. in Non primitive Data Type HEAP memory is used
+//here whatever we copy or anything it gives the reference of the original value so whatever values we will change will reflect in the original value too
+
+
+
+
