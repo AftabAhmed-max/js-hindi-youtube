@@ -47,6 +47,24 @@ const myfunc = function() {
 // 2. in Non primitive Data Type HEAP memory is used
 //here whatever we copy or anything it gives the reference of the original value so whatever values we will change will reflect in the original value too
 
+//STACK memory (here as name2 has the copy of name1 , name 1 value is not changing on making chanegs in name2)
 
+// let name1 = "aftabahmed";
+// console.log(name1);
 
+// let name2 = name1;
+// name2 = "ahmedjauhar";
+// console.log(name2);
+
+//HEAP memory (here as product2 has the reference of product1 , therefore any changes in product2 will reflect directly in product1)
+
+// let product1 = {
+//     name : "Aftab",
+//     age : 23,
+// }
+// console.log(product1);
+
+// let product2 = product1;
+// product2.name = "AHMEDALI";
+// console.log(product2);
 
