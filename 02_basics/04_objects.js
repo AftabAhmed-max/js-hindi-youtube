@@ -66,11 +66,11 @@
 
 
 // ACCESSING THE KEYS AND VALUES DIFFERENTLY 
-let user1 = {
-    name : "Aftab",
-    age : 18 ,
-    email : "AftabAhmed@gmail.com",
-}
+// let user1 = {
+//     name : "Aftab",
+//     age : 18 ,
+//     email : "AftabAhmed@gmail.com",
+// }
 
 // here the interesting thing is that the output is given out in an array
 // console.log(Object.keys(user1)); // for keys 
@@ -80,7 +80,27 @@ let user1 = {
 // console.log(Object.entries(user1));
 
 // to check if the key is availble in the object 
-console.log(user1.hasOwnProperty('names'));
+// console.log(user1.hasOwnProperty('names'));
 
+
+/**Destructuring of Objects**/
+
+let course = {
+    name : "JS in Hindi",
+    price : "999",
+    instructer : "Hitesh",
+}
+
+let {instructer:ins} = course ;
+console.log(ins);
+
+
+//JSON
+
+
+{
+    "name" : "Aftab" ,
+    "age" : "23",
+}
 
 
