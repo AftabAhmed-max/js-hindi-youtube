@@ -91,16 +91,17 @@ let course = {
     instructer : "Hitesh",
 }
 
-let {instructer:ins} = course ;
+let {instructer:ins} = course ; // another way of accessing objects
 console.log(ins);
 
 
 //JSON
 
+// {
+//     "name" : "Aftab" ,
+//     "age" : "23",
+// }
 
-{
-    "name" : "Aftab" ,
-    "age" : "23",
-}
+
 
 
