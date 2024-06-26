@@ -18,10 +18,19 @@
 // let fr = number(5,6);
 // console.log(fr);
 
-function login(username) {
-    if(username === null || username === undefined) {
-        return "please enter a correct Name";
-    }
-    return `${username} just logged in `
+// function login(username) {
+//     if(username === null || username === undefined) {
+//         return "please enter a correct Name";
+//     }
+//     return `${username} just logged in `
+// }
+// console.log(login());
+
+
+// using rest operator when you dont know the number of arguements you are going to pass it is same as spread operator
+function calculate(...num1) {
+    return num1;
 }
-console.log(login());
+console.log(calculate(200,300,400));
+
+
