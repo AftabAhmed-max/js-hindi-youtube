@@ -1,0 +1,13 @@
+// JavaScript Execution Context (how javascript runs a file)
+// two types :- 1. Global Execution context 2. Functional Execution Context
+
+// 1. every environment like browser or node or bun or deno has different Global execution environment and there fore when you console log this keyword it will give different values in different environment
+
+// there are 2 phases to run a code :-
+// 1. Memory Creation Phase (memory allocation)
+// 2. Execution Phase
+
+// javascript is single threaded
+
+// there is more information in this video 25 from Interview POV can view Later
+
