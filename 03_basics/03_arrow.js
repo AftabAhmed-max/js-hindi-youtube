@@ -27,5 +27,5 @@
 // implicit return arrow function 
 //(here if there is return inside {} and single line only then we can remove return and {}
 // we can also wrap the material after arrow in parenthesis highly used for objects
-let chai = (num1,num2) => num1 + num2;
-console.log(chai(4,8));
+// let chai = (num1,num2) => num1 + num2;
+// console.log(chai(4,8));
