@@ -36,7 +36,7 @@
 //     console.log("balance is less than 1200");
 // }
 
-// && and || operators
+// LOgical Operators && and || operators
 
 let loggedIn = false;
 let debitcard = true;
