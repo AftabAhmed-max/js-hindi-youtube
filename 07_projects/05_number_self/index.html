@@ -4,14 +4,101 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Number Guessing Game</title>
+    <style>
+
+        /* body {
+            height: 100%;
+            width: 100%;
+            box-sizing: border-box;
+        } */
+
+        .container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+        }
+
+        .innerContainer {
+            width: 500px; 
+            max-width: 100%; 
+            padding: 20px; 
+            background-color: #ffffff; 
+            border: 1px solid black;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        h1 {
+            margin: 0;
+            margin-bottom: 15px;
+        }
+
+        .para {
+            margin: 0;
+            margin-bottom: 30px;
+            font-size: 20px;
+            color: black;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+        }
+
+        label {
+            font-size: 22px;
+            margin-bottom: 5px;
+        }
+
+        input {
+            padding: 6px 18px;
+            margin-bottom: 5px;
+        }
+
+        .subt {
+            padding: 3px 8px;
+        }
+
+        .guesses {
+            font-size: 22px;
+            margin-bottom: 5px;
+        }
+        
+        .remaining {
+            font-size: 22px;
+            margin-bottom: 5px;
+        }
+
+        .result {
+            font-size: 22px;
+            margin-bottom: 5px;
+        }
+
+    </style>
 </head>
 <body>
     
 <div class="container">
-    <p></p>
+    <div class="innerContainer">
+        <h1>Number Guessing Game</h1>
+        <p class="para">Guess a Number between 1 to 100</p>
+        <form action="#">
+            <label for="guessInput">Guess a Number</label>
+            <input type="text" class="guessInput">
+            <input type="submit" class="subt" value="Submit">
+        </form>
+        <p class="guesses">Previous Guesses :<span class="guessed"></span></p>
+        <p class="remaining">Remaining Guesses :<span class="Rem"></span></p>
+
+        <p class="result"></p>
+    </div>
 </div>
-
-
-
 </body>
 </html>
