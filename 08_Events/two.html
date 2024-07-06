@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Chai Aur Code</h1>
+    <button id="stop">Stop</button>
+</body>
+<script>
+
+    // setTimeout() this will take the time we give to it and execute the function for once
+    // setTimeout(function(){
+    //     console.log("Aftab");
+    // },2000);
+
+    let learning = function(){
+        document.querySelector('h1').innerHTML = "Best js series";
+    } 
+    // setTimeout(learning,2000); 
+
+    //clearTimeout() to stop the setTimeout before it is executed
+
+    let changeMe =  setTimeout(learning,2000);
+
+    document.querySelector('#stop').addEventListener('click', function() {
+        clearTimeout(changeMe);
+        console.log("Stopped");
+    })
+
+
+
+</script>
+</html>
